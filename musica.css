@@ -1,0 +1,97 @@
+
+body {
+    font-family: Pacifico, cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/498/008/large_2x/colorful-liquid-abstract-background-colored-marble-texture-backdrop-multi-color-gradient-pattern-and-textured-wallpaper-free-photo.jpg);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5a5a5a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 40px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#historia {
+    background-color: #333;
+    text-align: center;
+}
+
+section h1 {
+    color: #ffffff;
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 10px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 10px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article p {
+    margin: 0;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #5a5a5a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
