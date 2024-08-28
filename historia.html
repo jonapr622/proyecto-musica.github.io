@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="musica.css">
     <title>Música</title>
 </head>
@@ -23,17 +24,21 @@
         <section id="historia">
             <h1>Historia de la Música</h1>
         </section>
-        <section>
-            <ul>
-                <li><a href="#la-musica-en-la-prehistoria">La música en la prehistoria</a></li>
-                <li><a href="#la-musica-antigua">La música antigua</a></li>
-                <li><a href="#la-musica-medieval">La música medieval</a></li>
-                <li><a href="#la-musica-renacentista">La música renacentista</a></li>
-                <li><a href="#musica-clasica-y-clasicista">Música clásica y clasicista</a></li>
-                <li><a href="#la-musica-romantica">La música romántica</a></li>
-                <li><a href="#la-musica-contemporanea">La música contemporánea</a></li>
+
+        <div class="dropdown">
+            <button  class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#la-musica-en-la-prehistoria">La música en la prehistoria</a></li>
+                <li><a class="dropdown-item" href="#la-musica-antigua">La música antigua</a></li>
+                <li><a class="dropdown-item" href="#la-musica-medieval">La música medieval</a></li>
+                <li><a class="dropdown-item" href="#la-musica-renacentista">La música renacentista</a></li>
+                <li><a class="dropdown-item" href="#musica-clasica-y-clasicista">Música clásica y clasicista</a></li>
+                <li><a class="dropdown-item" href="#la-musica-romantica">La música romántica</a></li>
+                <li><a class="dropdown-item" href="#la-musica-contemporanea">La música contemporánea</a></li>
             </ul>
-        </section>
+        </div>
         <section id="la-musica-en-la-prehistoria">
             <h3>La música en la prehistoria</h3>
             <p>Fue vinculada con las manifestaciones primitivas que el hombre empleaba de manera ritual, es decir, como parte de las ceremonias o en proceso de inspiración ya fuera individual o grupal. Solían usarla más que todo para antes y después de las guerras. El hombre de esta época veía música en todo aquello que sonara, ya fueran huesos, arcos y por supuesto, en la voz humana. </p>
@@ -110,5 +115,6 @@
             <button type="button" class="btn btn-dark">Dark</button>
         </article>
         <p>&copy; 2024 Música. Pagina creada por Squad 2.</p>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </footer>
 </body>
