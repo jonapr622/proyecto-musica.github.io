@@ -34,23 +34,25 @@
         <article id="contacto">
             <h2>Contacto</h2>
             <form action="">
-                <div>
-                    <label for="Name">Nombre:</label>
+                <div class="row">
+                    <div class="col">
+                        <label for="inputNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <label for="inputApellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    </div>
                 </div>
-                <div>
-                    <input type="text" name="Name">
-                </div>
-                <div>
-                    <label for="e-mail">Correo:</label>
-                </div>
-                <div>
-                    <input type="email" name="e-mail">
-                </div>
-                <div>
-                    <label for="cel">Numero:</label>
-                </div>
-                <div>
-                    <input type="number" name="cel">
+                <div class="row">
+                    <div class="col">
+                        <label for="inputEmail4" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Escribe tu correo">
+                    </div>
+                    <div class="col">
+                        <label for="inputPassword4" class="form-label">Numero</label>
+                        <input type="number" class="form-control" id="inputPassword4" placeholder="Escribe tu Numero">
+                    </div>
                 </div>
                 <div>
                     <label for="information">Recibir más información:</label>
