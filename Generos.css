@@ -1,0 +1,127 @@
+/* Generos.css */
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos del carrusel */
+.carrusel {
+    padding: 20px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100vh; /* Ajusta según el tamaño deseado */
+    background-color: black; /* Fondo negro para el contenedor del carrusel */
+    position: relative; /* Asegura que los botones de navegación se posicionen correctamente */
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el slide */
+    background-position: center; /* Centra la imagen de fondo */
+    height: 100%; /* Ajusta la altura de cada slide */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+/* Contenedor de cada artículo */
+.article-container {
+    text-align: center;
+    color: white; /* Color del texto blanco */
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente para mejorar la legibilidad */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%; /* Limita el ancho máximo del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el ancho total del contenedor */
+}
+
+/* Títulos y descripciones */
+.article-title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.article-descripcion {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+/* Imágenes de fondo para cada slide */
+#pop, #regueton, #rock, #hiphop, #electronica {
+    background-size: cover; /* Ajusta las imágenes de fondo al tamaño del slide */
+    background-position: center; /* Centra las imágenes */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    height: 100%; /* Asegura que la imagen cubra el slide */
+}
+
+/* Estilos para los controles de navegación de Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+    color: white; /* Color blanco para los botones de navegación */
+}
+
+.swiper-pagination-bullet {
+    background: white; /* Color blanco para los indicadores de la paginación */
+}
+
+/* Imágenes de fondo para cada slide */
+#pop {
+    background-image: url("imagenes/pop.jpg");
+    height: 100%;
+}
+
+#regueton {
+    background-image: url("imagenes/regueton.jpg");
+}
+
+#rock {
+    background-image: url("imagenes/rock.jpg");
+}
+
+#hiphop {
+    background-image: url("imagenes/hiphop.jpg");
+}
+
+#electronica {
+    background-image: url("imagenes/electronica.jpg");
+}
+
+/* Estilos para los controles de navegación de Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+    color: white; /* Color blanco para los botones de navegación */
+}
+
+.swiper-pagination-bullet {
+    background: rgb(12, 12, 12); /* Color blanco para los indicadores de la paginación */
+}

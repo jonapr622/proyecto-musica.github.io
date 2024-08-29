@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Géneros Musicales Actuales</title>
+    <link rel="stylesheet" href="Generos.css">
+    <!-- Incluye el CSS de Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Géneros Musicales Actuales</h1>
+        <nav>
+            <ul>
+                <li><a href="#generos">Géneros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Listado de Géneros -->
+    <section id="generos" class="carrusel">
+        <!-- Contenedor del carrusel -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Género Pop -->
+                <div class="swiper-slide" >
+                    <div class="article-container" id="pop">
+                        <h3 class="article-title">Pop</h3>
+                        <p class="article-descripcion">El pop es un género que combina elementos de diversos estilos para crear música atractiva y pegajosa. Artistas destacados incluyen a Taylor Swift, Billie Eilish, y The Weeknd.</p>
+                    </div>
+                </div>
+
+                <!-- Género Reguetón -->
+                <div class="swiper-slide" id="regueton">
+                    <div class="article-container">
+                        <h3 class="article-title">Reguetón</h3>
+                        <p class="article-descripcion">El reguetón es un género que mezcla ritmos latinos con hip-hop y rap. Artistas destacados incluyen a Bad Bunny, J Balvin, y Karol G.</p>
+                    </div>
+                </div>
+
+                <!-- Género Rock -->
+                <div class="swiper-slide" id="rock">
+                    <div class="article-container">
+                        <h3 class="article-title">Rock</h3>
+                        <p class="article-descripcion">El rock es un género musical caracterizado por el uso de guitarras eléctricas y una fuerte presencia de batería. Bandas icónicas incluyen a The Rolling Stones, Foo Fighters, y Green Day.</p>
+                    </div>
+                </div>
+
+                <!-- Género Hip-Hop -->
+                <div class="swiper-slide" id="hiphop">
+                    <div class="article-container">
+                        <h3 class="article-title">Hip-Hop</h3>
+                        <p class="article-descripcion">El hip-hop es un movimiento cultural que incluye rap, DJing, graffiti y breakdance. Artistas representativos son Kendrick Lamar, Drake, y Cardi B.</p>
+                    </div>
+                </div>
+
+                <!-- Género Electrónica -->
+                <div class="swiper-slide" id="electronica">
+                    <div class="article-container">
+                        <h3 class="article-title">Electrónica</h3>
+                        <p class="article-descripcion">La música electrónica se caracteriza por el uso de sintetizadores y producción digital. DJ's destacados son Martin Garrix, Calvin Harris, y David Guetta.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles de navegación -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Géneros Musicales Actuales</p>
+    </footer>
+
+    <!-- Incluye el JS de Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Inicializa Swiper
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // O 'vertical' si prefieres un carrusel vertical
+            loop: true, // Para hacer que el carrusel sea infinito
+            autoplay: {
+                delay: 5000, // Tiempo en milisegundos entre cada slide
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
