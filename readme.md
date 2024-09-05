@@ -7,6 +7,7 @@ El Proyecto deberá ser basado en la musica en general
 - [General](#General)
 - [Historia](#Historia)
 - [Generos](#Generos)
+- [Beneficios](#Beneficios)
 - [TopArtistas](#TopArtistas)
 -
 
@@ -26,6 +27,9 @@ Lista de generos musicales .
 
 En esta seccion se incluira Top 10 de artistas mas importantes 
 
+## Beneficios
+
+Aquí se hablara tanto de beneficios mentales hasta físicos 
 
 ## Asignacion de sección por integrante
 
@@ -34,3 +38,5 @@ Kerena
 Jona
 
 Luis
+
+Marco
